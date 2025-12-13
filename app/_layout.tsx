@@ -26,7 +26,7 @@ export default function RootLayout() {
   }, [user, initialized, segments]);
   if (!initialized) {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: 'gray' }}>
+      <View className='flex-1 bg-blue-900/30 items-center justify-center'>
         <ActivityIndicator size="large" />
       </View>
     );

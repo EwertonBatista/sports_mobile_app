@@ -41,7 +41,7 @@
     },
     "functions": [
         {
-            "$id": "692ee9920029e8d5e31b",
+            "$id": "692f97770038a89a3e0f",
             "name": "confirmar-pagamento",
             "runtime": "node-22",
             "specification": "s-0.5vcpu-512mb",

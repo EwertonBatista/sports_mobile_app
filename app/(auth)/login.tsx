@@ -22,7 +22,7 @@ export default function Login() {
       className="flex-1"
       resizeMode="cover"
     >
-      <View className="flex-1 bg-blue-900/50 items-center justify-center">
+      <View className="flex-1 bg-blue-900/30 items-center justify-center">
 
         <View className='flex flex-row items-center'>
           <Image
@@ -43,7 +43,7 @@ export default function Login() {
             placeholder="Digite seu email" 
             value={email} 
             onChangeText={setEmail} 
-            className="border border-gray-200 border-2 rounded-lg p-4 mb-2 w-3/4 bg-gray-400"
+            className="border-gray-200 border-2 rounded-lg p-4 mb-2 w-3/4 bg-gray-400"
             />
         </View>
 
@@ -122,6 +122,7 @@ export default function Login() {
         </View>
 
       </View>
+      
     </ImageBackground>
   );
 }
